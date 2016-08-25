@@ -1,0 +1,9 @@
+C:\GrandCircusMaterials\C#Bootcamp\C_Sharp_Labs\CSharp_Lab2\CSharp_Lab2_Test\bin\Debug\CSharp_Lab2_Test.dll
+C:\GrandCircusMaterials\C#Bootcamp\C_Sharp_Labs\CSharp_Lab2\CSharp_Lab2_Test\bin\Debug\CSharp_Lab2_Test.pdb
+C:\GrandCircusMaterials\C#Bootcamp\C_Sharp_Labs\CSharp_Lab2\CSharp_Lab2_Test\bin\Debug\CSharp_Lab2.exe
+C:\GrandCircusMaterials\C#Bootcamp\C_Sharp_Labs\CSharp_Lab2\CSharp_Lab2_Test\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll
+C:\GrandCircusMaterials\C#Bootcamp\C_Sharp_Labs\CSharp_Lab2\CSharp_Lab2_Test\bin\Debug\CSharp_Lab2.pdb
+C:\GrandCircusMaterials\C#Bootcamp\C_Sharp_Labs\CSharp_Lab2\CSharp_Lab2_Test\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.xml
+C:\GrandCircusMaterials\C#Bootcamp\C_Sharp_Labs\CSharp_Lab2\CSharp_Lab2_Test\obj\Debug\CSharp_Lab2_Test.csprojResolveAssemblyReference.cache
+C:\GrandCircusMaterials\C#Bootcamp\C_Sharp_Labs\CSharp_Lab2\CSharp_Lab2_Test\obj\Debug\CSharp_Lab2_Test.dll
+C:\GrandCircusMaterials\C#Bootcamp\C_Sharp_Labs\CSharp_Lab2\CSharp_Lab2_Test\obj\Debug\CSharp_Lab2_Test.pdb

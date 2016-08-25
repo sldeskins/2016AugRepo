@@ -1,0 +1,44 @@
+Lab2 Notes
+
+Hint: how to keep the console from closing one you after the last input?
+
+
+	- Console.ReadChar
+
+	- do a release build and run from the exe
+
+	- in debug use F5 to start
+	   
+
+Hint: how to have double quotes appear in the console?
+
+		- /"   use the escape character before the quote
+		- use two double quotes
+		
+		https://msdn.microsoft.com/en-us/library/h21280bw.aspx  - escape sequences
+		https://msdn.microsoft.com/en-us/library/aa983682(v=vs.71).aspx - double quotes
+
+
+Hint: Why the different syntaxt?
+  String interpolation is new with c# 6.0.  
+  String format the previous standard and you will see in code with earlier versions of .net
+
+  
+Figure 6 Composite String Formatting Versus String Interpolation
+[TestMethod]
+public void InterpolateString()
+{
+  Person person = new Person("Inigo", "Montoya") { Age = 42 };
+  string message =
+    string.Format("Hello!  My name is {0} {1} and I am {2} years old.",
+    person.FirstName, person.LastName, person.Age);
+  AreEqual<string>
+    ("Hello!  My name is Inigo Montoya and I am 42 years old.", message);
+  string messageInterpolated =
+    $"Hello!  My name is {person.FirstName} {person.LastName} and I am
+    {person.Age} years old.";
+  AreEqual<string>(message, messageInterpolated);
+}		
+
+https://msdn.microsoft.com/en-us/magazine/dn879355.aspx - c# 6.0 features (2104)
+http://stackoverflow.com/questions/28921701/does-c-sharp-6-0-work-for-net-4-0 string interpolation works with earlier frameworks
