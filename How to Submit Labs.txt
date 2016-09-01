@@ -1,0 +1,14 @@
+At least one lab per week is to be submitted.
+
+How to submit lab:
+
+	Send an email:
+		To: sldeskins@gmail.com
+		Subject: GC Submit 
+		
+		Body: Contains a link to the github repository where the lab is saved
+		
+		OR
+		
+		a zip file of the lab solution
+	
