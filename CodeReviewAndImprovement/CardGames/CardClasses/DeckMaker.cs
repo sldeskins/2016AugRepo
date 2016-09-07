@@ -8,33 +8,33 @@ namespace CardClasses
 {
     public static class DeckMaker
     {
-        public static Card[] GetAStandardJoker( )
+        public static FiveSuitedCard[] GetAStandardJoker( )
         {
-            Card[] deckOfCards = new Card[1] { new StandardPlayingCard(StandardSuitEnum.NotASuit, 16) };
+            FiveSuitedCard[] deckOfCards = new FiveSuitedCard[1] { new StandardPlayingCard(StandardSuitEnum.NotASuit, 16) };
              
             return deckOfCards;
         }
-        public static Card[] GetAStandardSuitOfCards(StandardSuitEnum suit)
+        public static FiveSuitedCard[] GetAStandardSuitOfCards(StandardSuitEnum suit)
         {
-            Card[] deckOfCards = new Card[13];
+            FiveSuitedCard[] deckOfCards = new FiveSuitedCard[13];
             for (int i = 1; i <= deckOfCards.Length; i++)
             {
                 deckOfCards[i] = new StandardPlayingCard(suit, i);
             }
             return deckOfCards;
         }
-        public static Card[] GetStandardDeck()
+        public static FiveSuitedCard[] GetStandardDeck()
         {
-            Card[] deckOfCards = new Card[52];
+            FiveSuitedCard[] deckOfCards = new FiveSuitedCard[52];
             deckOfCards.CopyTo(GetAStandardSuitOfCards(StandardSuitEnum.Clubs), 0);
             deckOfCards.CopyTo(GetAStandardSuitOfCards(StandardSuitEnum.Diamonds), 13);
             deckOfCards.CopyTo(GetAStandardSuitOfCards(StandardSuitEnum.Hearts), 26);
             deckOfCards.CopyTo(GetAStandardSuitOfCards(StandardSuitEnum.Spades), 39);
             return deckOfCards;
         }
-        public static Card[] GetStandardDeckWithJokers()
+        public static FiveSuitedCard[] GetStandardDeckWithJokers()
         {
-            Card[] deckOfCards = new Card[54];
+            FiveSuitedCard[] deckOfCards = new FiveSuitedCard[54];
             deckOfCards.CopyTo(StandardPlayingCard.GetColorlessJoker(), 0);
             deckOfCards.CopyTo(GetStandardDeck(), 1);
             deckOfCards.CopyTo(GetStandardDeck(), 53);

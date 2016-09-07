@@ -6,18 +6,18 @@ using System.Threading.Tasks;
 
 namespace CardClasses
 {
-    public class Card
+    public class FiveSuitedCard:ProtoCard
     {
         private string m_suitName;
         private int m_pointValue;
         private string m_faceName;
-        public Card()
+        public FiveSuitedCard()
         {
             m_faceName = "";
             m_suitName = "";
             m_pointValue = 0;
         }
-        public Card(string suitName, int pointValue)
+        public FiveSuitedCard(string suitName, int pointValue)
         {
             m_suitName = suitName;
             m_pointValue = pointValue;

@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace CardClasses
 {
-    public class StandardPlayingCard : Card
+    public class StandardPlayingCard : FiveSuitedCard
     {
         private string m_faceValue = "";
 
