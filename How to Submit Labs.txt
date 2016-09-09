@@ -11,4 +11,31 @@ How to submit lab:
 		OR
 		
 		a zip file of the lab solution
+	(Note: Gmail does not like '.zip' extension.  Rename the extension part to '.zzz')
+
+
+
+
+
+Lab Submission Process Update
+
+
+The process is still shaking down.
+
+ - Issues that came up
+   - how to get them to the reviewer, i.e. email to sldeskins@gmail.com  with 'GC Submit' in the subject
+
+   - what to put in the email
+     a link to where it is on github
+	 Note: Sometimes git repository on one's local machine have not be 'synced' with the repository on github
+	 
+	 OR
+	 
+	 attach a zip file. 
+	 Note: Some mail provider may not like sending '.zip' files. Rename the 'zip' part to something else like '.zip111'
+	 Note: What to attach or zip, was not defined clearly enough. Projects and solutions contain more than one file.
+	       Sending a single file does not work well for the reviewer in most cases.
+	 
+ 
+   
 	
